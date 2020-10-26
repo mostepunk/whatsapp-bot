@@ -1,0 +1,31 @@
+version: '2'
+networks:
+  # your network settings
+
+services:
+
+  wabot:
+    volumes: 
+       - /whatsapp_bot/users:/root/.config/yowsup/
+       - /whatsapp_bot/files:/usr/src/wabot/yowsup/downloaded_files
+       - /whatsapp_bot/logs:/var/log/
+    container_name: muscle_wabot
+    build: .
+    restart: always
+    networks:
+     - your_network_name 
+    environment:
+      - phone_number=7xxxxxxxx
+      - operator_code=01
+                    # 01 — МТС
+                    # 02 — мегафон
+                    # 20 — теле2 
+                    # 99 — билайн
+      - answer_type=sms
+        #- answer_type=voice
+      - TZ="Europe/Moscow"
+
+    image: "wabot"
+    stdin_open: true
+    entrypoint: [ "sh", "install.sh" ]
+    command: [ "-w" ]

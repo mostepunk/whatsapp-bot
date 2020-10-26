@@ -1,0 +1,14 @@
+157.240.28.55 e1.whatsapp.net e15.whatsapp.net
+34.194.255.230 e2.whatsapp.net e16.whatsapp.net
+31.13.66.51 e3.whatsapp.net
+31.13.71.50 e4.whatsapp.net
+31.13.72.48 e5.whatsapp.net
+31.13.79.54 e6.whatsapp.net
+31.13.85.49 e7.whatsapp.net
+31.13.65.50 e8.whatsapp.net
+31.13.87.48 e9.whatsapp.net
+108.168.254.65 e10.whatsapp.net
+31.13.66.51 e11.whatsapp.net
+31.13.70.50 e12.whatsapp.net
+31.13.83.51 e13.whatsapp.net
+31.13.92.48 e14.whatsapp.net
